@@ -5,12 +5,15 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#333',
-        'dark-blue': '#0B132A',
+        'gold': '#a18a4d',
         'grey': '#4F5665'
       },
       fontFamily: {
         sans: ['Lato', 'sans-serif'],
-      }
+      },
+      gridTemplateColumns: {
+        '2fr-1fr': '2fr 1fr',
+      },
     },
   },
   plugins: [],
